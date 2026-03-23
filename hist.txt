@@ -1,0 +1,25 @@
+    1  config --global user.name "vijay karuppusamy"
+    2  config --global user."vijay karuppusamy"
+    3  config --global user."vijay karuppusamy"
+    4* 
+    5  clear
+    6  git config --global user.name "vijay karuppusamy"
+    7  git config --global user.email "vijaykaruppusamy255@gmail.com"
+    8  git init
+    9  touch file1.txt
+   10  touch file2.txt
+   11  git add .
+   12  git commit -m "file1.txt and file2.txt added0"
+   13  [200~
+   14  remote add origin https://github.com/vijaykaruppusamy/vijay1331.git
+   15  git remote add origin https://github.com/vijaykaruppusamy/vijay1331.git
+   16  git push -u origin master
+   17  clear
+   18  touch file3.txt
+   19  git add .
+   20  git commit -m "message"
+   21  git push -u origin master
+   22  git pull
+   23  git pull
+   24  history
+   25  history>>hist.txt
